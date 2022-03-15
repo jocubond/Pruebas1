@@ -16,12 +16,6 @@ steps:
     mavenPomFile: 'pom.xml'
     codeCoverageToolOption: Cobertura
 
-- task: Maven@3
-  displayName: 'serenity.properties'
-  inputs:
-    mavenPomFile: 'serenity.properties'
-    codeCoverageToolOption: Cobertura
-
 
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
