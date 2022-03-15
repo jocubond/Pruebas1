@@ -11,9 +11,9 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'pom.xml'
+  displayName: 'Rama Judicial/pom.xml'
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'Rama Judicial/pom.xml'
     codeCoverageToolOption: Cobertura
 
 
