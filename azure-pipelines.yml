@@ -11,9 +11,9 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'SIUGJ/pom.xml'
+  displayName: 'pom.xml'
   inputs:
-    mavenPomFile: 'SIUGJ/pom.xml'
+    mavenPomFile: 'pom.xml'
     codeCoverageToolOption: Cobertura
 
 
