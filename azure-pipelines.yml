@@ -11,9 +11,15 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'Rama Judicial/pom.xml'
+  displayName: 'pom.xml'
   inputs:
-    mavenPomFile: 'Rama Judicial/pom.xml'
+    mavenPomFile: 'pom.xml'
+    codeCoverageToolOption: Cobertura
+
+- task: Maven@3
+  displayName: 'serenity.properties'
+  inputs:
+    mavenPomFile: 'serenity.properties'
     codeCoverageToolOption: Cobertura
 
 
