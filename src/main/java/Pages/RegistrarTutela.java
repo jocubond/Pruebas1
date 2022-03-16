@@ -27,9 +27,14 @@ public class RegistrarTutela extends PageObject {
     }
 
     public void seleccionarRegistroTutela() throws InterruptedException {
-            Acciones.click(getDriver(),OPC_REG_TUTELA);
+            Acciones.iframe(getDriver(), OPC_REG_TUTELA,IFRAMES);
             Thread.sleep(3000);
         }
 
+    public void clickBotonRegistro() throws InterruptedException {
+        Acciones.iframe(getDriver(), BTN_REGISTRAR_NUEVA_TUTELA,IFRAMES2);
+        Thread.sleep(3000);
     }
+
+}
 

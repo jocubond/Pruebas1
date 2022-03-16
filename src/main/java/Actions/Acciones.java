@@ -16,7 +16,11 @@ public class Acciones {
     public static void escribir(WebDriver driver, By mapeo, String dato){
         driver.findElement(mapeo).sendKeys(dato);
 
+    }
 
+    public static void iframe (WebDriver driver, By mapeo, String identificador) {
+        driver.switchTo().frame(identificador);
+        driver.findElement(mapeo).click();
     }
     
 }

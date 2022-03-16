@@ -28,12 +28,12 @@ public class RegistroTutelaDefinitions {
     @Given("^cargo la ventana de registro de tutela$")
     public void cargoLaVentanaDeRegistroDeTutela() throws InterruptedException {
         regitrarTutela.seleccionarRegistroTutela();
+        regitrarTutela.clickBotonRegistro();
 
     }
 
     @When("^Completo la informacion principal$")
     public void completoLaInformacionPrincipal() {
-
 
     }
 
