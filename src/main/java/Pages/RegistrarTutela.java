@@ -19,7 +19,7 @@ public class RegistrarTutela extends PageObject {
         Acciones.escribir(getDriver(), TXT_USUARIO,usuario);
         Acciones.escribir(getDriver(), TXT_CONTRASEÑA,contraseña);
         Acciones.click(getDriver(), BTN_IR);
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
     }
 
