@@ -1,0 +1,908 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" class="ext-strict x-viewport"><head>
+<style>
+
+									
+									@font-face
+									{
+									  font-family:'WorkSans-MediumItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraLightItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraLightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Black';
+									  src: url('../fuentes/WorkSans/WorkSans-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ThinItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Italic';
+									  src: url('../fuentes/WorkSans/WorkSans-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-BlackItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraLight';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraLight.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Light';
+									  src: url('../fuentes/WorkSans/WorkSans-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-BoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Regular';
+									  src: url('../fuentes/WorkSans/WorkSans-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Thin';
+									  src: url('../fuentes/WorkSans/WorkSans-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-LightItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraBold';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraBoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Bold';
+									  src: url('../fuentes/WorkSans/WorkSans-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-SemiBold';
+									  src: url('../fuentes/WorkSans/WorkSans-SemiBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Medium';
+									  src: url('../fuentes/WorkSans/WorkSans-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans';
+									  src: url('../fuentes/WorkSans/WorkSans.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-SemiBoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-SemiBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraBoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-LightItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Thin';
+									  src: url('../fuentes/Monserrat/Montserrat-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-BlackItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ThinItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Regular';
+									  src: url('../fuentes/Monserrat/Montserrat-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraLightItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraLightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraLight';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraLight.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-BoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-SemiBold';
+									  src: url('../fuentes/Monserrat/Montserrat-SemiBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-SemiBoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-SemiBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-MediumItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraBold';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Italic';
+									  src: url('../fuentes/Monserrat/Montserrat-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Bold';
+									  src: url('../fuentes/Monserrat/Montserrat-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Black';
+									  src: url('../fuentes/Monserrat/Montserrat-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Light';
+									  src: url('../fuentes/Monserrat/Montserrat-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat';
+									  src: url('../fuentes/Monserrat/Montserrat.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Medium';
+									  src: url('../fuentes/Monserrat/Montserrat-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Thin';
+									  src: url('../fuentes/Lato2OFL/Lato-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Black';
+									  src: url('../fuentes/Lato2OFL/Lato-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-HeavyItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-HeavyItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-MediumItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Italic';
+									  src: url('../fuentes/Lato2OFL/Lato-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Bold';
+									  src: url('../fuentes/Lato2OFL/Lato-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-LightItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-SemiboldItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-SemiboldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Light';
+									  src: url('../fuentes/Lato2OFL/Lato-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-BoldItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-BlackItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-ThinItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Heavy';
+									  src: url('../fuentes/Lato2OFL/Lato-Heavy.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Regular';
+									  src: url('../fuentes/Lato2OFL/Lato-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-HairlineItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-HairlineItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Hairline';
+									  src: url('../fuentes/Lato2OFL/Lato-Hairline.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Semibold';
+									  src: url('../fuentes/Lato2OFL/Lato-Semibold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Medium';
+									  src: url('../fuentes/Lato2OFL/Lato-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Medium';
+									  src: url('../fuentes/Roboto/Roboto-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Black';
+									  src: url('../fuentes/Roboto/Roboto-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Italic';
+									  src: url('../fuentes/Roboto/Roboto-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto';
+									  src: url('../fuentes/Roboto/Roboto.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-LightItalic';
+									  src: url('../fuentes/Roboto/Roboto-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Bold';
+									  src: url('../fuentes/Roboto/Roboto-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-BlackItalic';
+									  src: url('../fuentes/Roboto/Roboto-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-BoldItalic';
+									  src: url('../fuentes/Roboto/Roboto-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-MediumItalic';
+									  src: url('../fuentes/Roboto/Roboto-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Thin';
+									  src: url('../fuentes/Roboto/Roboto-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Regular';
+									  src: url('../fuentes/Roboto/Roboto-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-Light';
+									  src: url('../fuentes/Roboto/Roboto-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Roboto-ThinItalic';
+									  src: url('../fuentes/Roboto/Roboto-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+	body
+    {
+		min-height:450px;
+    	
+    }
+</style>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" type="text/css" href="../css/hayas.css.php" media="screen">
+<link rel="stylesheet" type="text/css" href="../estilos/estilos.css" media="screen">
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="../estilos/estilosExtIE8.css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="../estilos/estilosExtIE7.css" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="../estilos/estilosExtIE6.css" media="screen" /><![endif]-->
+<!--[if IE]><link rel="stylesheet" type="text/css" href="../estilos/estilosExtIE8.css" media="screen" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="../Scripts/ext/resources/css/ext-all.css.cgz">
+<script type="text/javascript" src="../Scripts/ext/adapter/ext/ext-base.js.jgz"></script>
+<script type="text/javascript" src="../Scripts/ext/ext-all.js.jgz"></script>
+<script type="text/javascript" src="../Scripts/ext/idioma/ext-lang-es.js"></script>
+<script type="text/javascript" src="../Scripts/funcionesAjax.js.jgz"></script>
+<script type="text/javascript" src="../Scripts/funcionesGenerales.js"></script>
+
+<style>
+	body
+	{
+		min-height:550px;
+
+	}
+	
+	.x-grid3-hd-inner 
+	{
+		font-family: Ubuntu, sans-serif;
+		height: auto;
+		font-size: 12px;
+		min-height:30px;
+	}
+</style>
+<script type="text/javascript" src="../Scripts/jquery.min.js"></script>
+<link rel="stylesheet" href="../Scripts/fancyBox/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen">
+<script type="text/javascript" src="../Scripts/fancyBox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="../Scripts/base64.js"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJ/Scripts/tblAdministracionExpedientesAutorizados.js.php"></script>
+
+
+
+
+
+<title>SIUGJ</title>
+<script language="javascript">
+	function enviar(lenguaje)
+	{
+		gE('leng').value=lenguaje;
+		gE('formLenguaje').submit();
+	}
+	
+	function regresarPagina()
+	{
+		if(gE('configuracionRegresar').value!='')
+			gE('frmRegresar').submit();
+		else
+			recargarPagina();
+	}
+	
+	function recargarPagina()
+	{
+		gE('frmRefrescarPagina').submit();
+	}
+	
+</script>
+<style>
+	#main_content
+	{
+		padding: 0px !important;
+	}
+	.p15
+	{
+		padding: 0px !important;
+	}
+	#example_content
+	{
+		padding: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	</style>
+<link rel="stylesheet" type="text/css" href="../principalPortal/css/controlesFrameWork.css">
+<link rel="stylesheet" type="text/css" href="../principalPortal/css/estiloSIUGJ.css">
+<style type="text/css" id="chrome-fixes-box-sizing">@media screen and (-webkit-min-device-pixel-ratio:0) {.x-grid3-cell{box-sizing: border-box !important;}}</style><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+<body style=" background:#FFFFFF !important" class="   ext-webkit ext-chrome ext-mac x-border-layout-ct ext-chrome-fixes" id="ext-gen3"><div id="ext-comp-1002" class=" x-panel x-panel-noborder x-border-panel" style="left: 0px; top: 0px; width: 1184px;"><div class="x-panel-bwrap" id="ext-gen5"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder x-border-layout-ct" id="ext-gen6" style="width: 1184px; height: 550px;"><div id="ext-comp-1003" class=" x-panel x-panel-noborder x-border-panel" style="left: 0px; top: 0px; width: 1184px;"><div class="x-panel-bwrap" id="ext-gen8"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder" id="ext-gen9" style="height: 70px; width: 1184px;"><label id="ext-comp-1004" class=" x-abs-layout-item" style="left: 40px; top: 15px;"><div id="divComboProcesos" class=" comboWrapSIUGJControl"><div class="x-form-field-wrap x-form-field-trigger-wrap" id="ext-gen15" style="width: 370px;"><input type="text" readonly="readOnly" autocomplete="off" id="cmbComboProcesos" name="cmbComboProcesos" class="x-form-text x-form-field comboSIUGJControl" style="width: 347px;"><img src="data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="x-form-trigger x-form-arrow-trigger" id="ext-gen16"></div></div></label><table id="btnAddRecordProceso" cellspacing="0" class="x-btn btnSIUGJCore x-btn-text-icon x-abs-layout-item x-item-disabled" style="width: 165px; height: 40px; left: 445px; top: 15px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button type="button" id="ext-gen11" class=" x-btn-text" style="background-image: url(&quot;../principalPortal/imagesSIUGJ/addCore.png&quot;);">Registrar</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table><table id="btnWatchRecordProceso" cellspacing="0" class="x-btn btnSIUGJCancelCore x-btn-text-icon x-abs-layout-item x-item-disabled" style="width: 216px; height: 40px; left: 625px; top: 15px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button type="button" id="ext-gen12" class=" x-btn-text" style="background-image: url(&quot;../principalPortal/imagesSIUGJ/openCore.png&quot;);">Ver Informacion</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table><table id="btnDeleteRecordProceso" cellspacing="0" class="x-btn btnSIUGJCore x-btn-text-icon x-item-disabled x-abs-layout-item" style="width: 165px; height: 40px; left: 860px; top: 15px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button type="button" id="ext-gen13" class=" x-btn-text" style="background-image: url(&quot;../principalPortal/imagesSIUGJ/deleteCore.png&quot;);">Remover</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table></div></div></div><iframe id="iframe-frameRegistroProcesos" name="iframe-frameRegistroProcesos" frameborder="0" src="" style="overflow: scroll !important; width: 1184px; height: 480px; left: 0px; top: 70px;" class=" x-border-panel"></iframe></div></div></div>
+<script type="text/javascript" src="../Scripts/funcionesUtiles.js.php"></script>
+<div id="">
+<div class="">
+<div id="main_content">
+<div id="" class="p15">
+<div>
+<table width="100%" border="0" cellpadding="2" cellspacing="2" bgcolor="#FFFFFF">
+<tbody><tr>
+<td width="1%" bgcolor="#FFFFFF">&nbsp;</td>
+<td width="81%" bgcolor="#FFFFFF" valign="top">
+<div id="example_content">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="right">
+<table width="100%">
+<tbody><tr>
+<td>
+<input type="hidden" value="1" id="hLeng"> </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+<tr>
+<td align="left">
+<table width="100%" style="border-spacing: 0px;"><tbody><tr><td align="left"><div class="titulo" style="color:#000000; font-size:11px;  height:23px"><b> </b></div></td></tr></tbody></table> <form action="" id="frmEnvioVideoConferencia" method="get" target="_blank">
+</form>
+</td>
+</tr>
+
+<tr>
+<td><br>
+<form method="POST" action="/modulosEspeciales_SIUGJ/tblProcesosJudiciales.php" id="frmEnvioDatos" target="iframe-frameRegistroProcesos">
+ <input type="hidden" name="confReferencia" value="-1">
+<input type="hidden" name="cPagina" value="sFrm=true|mR1=true">
+<input type="hidden" name="cPagina" id="cPagina" value="sFrm=true"><input type="hidden" name="idProceso" id="idProceso" value="-1"><input type="hidden" name="pantallaCompleta" id="pantallaCompleta" value="1"><input type="hidden" name="idFormulario" id="idFormulario" value="-1"><input type="hidden" name="ocultarBarraBotones" id="ocultarBarraBotones" value="1"><input type="hidden" name="contentIframe" id="contentIframe" value="1"></form>
+<form method="post" action="" id="frmRegresar">
+<input type="hidden" name="configuracion" id="configuracionRegresar" value="">
+</form>
+<form method="post" action="../modulosEspeciales_SGJ/tblAdministracionExpedientesAutorizados.php" id="frmRefrescarPagina">
+<input type="hidden" name="configuracion" value="-1">
+</form>
+</td>
+</tr>
+</tbody></table>
+</div>
+</td>
+</tr>
+</tbody></table>
+<div class="clearer">&nbsp;</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+</div>
+
+
+</div></div></body></html>

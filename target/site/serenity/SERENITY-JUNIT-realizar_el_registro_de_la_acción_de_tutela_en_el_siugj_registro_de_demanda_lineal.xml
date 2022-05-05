@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Realizar el registro de la acción de tutela en el SIUGJ" skipped="0" tests="1" time="43.22" timestamp="2022-05-03 07:19:16"><testcase name="Registro de demanda lineal"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ext-gen42&quot;]/em/span/span&quot;}&#10;  (Session info: chrome=101.0.4951.54)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/0y/7t0_t_t12ns...}, goog:chromeOptions: {debuggerAddress: localhost:54843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 47164ebdce493079ff15238c6b15a4d7&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;ext-gen42&quot;]/em/span/span}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ext-gen42"]/em/span/span"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/0y/7t0_t_t12ns...}, goog:chromeOptions: {debuggerAddress: localhost:54843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47164ebdce493079ff15238c6b15a4d7
+*** Element info: {Using=xpath, value=//*[@id="ext-gen42"]/em/span/span}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ext-gen42"]/em/span/span"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/0y/7t0_t_t12ns...}, goog:chromeOptions: {debuggerAddress: localhost:54843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47164ebdce493079ff15238c6b15a4d7
+*** Element info: {Using=xpath, value=//*[@id="ext-gen42"]/em/span/span}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.5', ip: 'fe80:0:0:0:cdd:351b:6d84:b4a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: driver.version: unknown
+Actions.Acciones.iframe(Acciones.java:28)
+Pages.RegistrarTutela.seleccionarRegistroTutela(RegistrarTutela.java:32)
+StepsDefinitions.RegistroTutelaDefinitions.cargoLaVentanaDeRegistroDeTutela(RegistroTutelaDefinitions.java:30)
+✽.cargo la ventana de registro de tutela(src/test/resources/features/RegistroTutela.feature:8)
+</system-err></testcase></testsuite>

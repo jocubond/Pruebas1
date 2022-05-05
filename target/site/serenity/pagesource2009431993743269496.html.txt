@@ -1,0 +1,769 @@
+<html class="  ext-strict"><head>
+<meta charset="utf-8">
+<title>SIUGJ</title>
+<link rel="stylesheet" type="text/css" href="../Scripts/ext/resources/css/ext-all.css.cgz">
+<script type="text/javascript" src="../Scripts/ext/adapter/ext/ext-base.js.jgz"></script>
+<script type="text/javascript" src="../Scripts/ext/ext-all.js.jgz"></script>
+<script type="text/javascript" src="../Scripts/ext/idioma/ext-lang-es.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/estilos2016.css">
+<script type="text/javascript" src="../Scripts/base64.js"></script>
+<script type="text/javascript" src="../Scripts/funcionesAjaxV2.js"></script>
+<script type="text/javascript" src="../Scripts/funcionesUtiles.js.php"></script>
+<script type="text/javascript" src="../Scripts/funcionesValidacion.js"></script>
+<script type="text/javascript" src="../Scripts/jQuery/jquery-1.9.1.js"></script>
+<script src="../Scripts/collapsible/jquery.collapsible.js"></script>
+<link rel="stylesheet" href="../Scripts/fancyBox/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen">
+<script type="text/javascript" src="../Scripts/fancyBox/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="../Scripts/ux/treeGrid/treegrid.css">
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGridSorter.js"></script>
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGridColumnResizer.js"></script>
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGridNodeUIV2.js"></script>
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGridLoader.js"></script>
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGridColumns.js"></script>
+<script type="text/javascript" src="../Scripts/ux/treeGrid/TreeGrid.js"></script>
+<script type="text/javascript" src="../Scripts/funcionesAjax.js.jgz"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJP/Scripts/cGeneracionDocumentos.js.php"></script>
+<link rel="stylesheet" type="text/css" href="../Scripts/classNotify/jquery.classynotty.css">
+<script src="../Scripts/classNotify/jquery.classynotty.js"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJP/Scripts/controlAgenda.js.php"></script>
+<script type="text/javascript" src="../Scripts/funcionesAjaxV2.js"></script>
+<script type="text/javascript" src="../Scripts/controlNotificaciones.js.php"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJP/Scripts/cValidarFirmaDocumento.js.php"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJP/Scripts/funcionesTableroControl.js.php"></script>
+<script type="text/javascript" src="./Scripts/cNotificadores.js.php"></script>
+<script type="text/javascript" src="../modulosEspeciales_SGJP/Scripts/cRevisionAlertas.js.php"></script>
+<script type="text/javascript" src="../principalPortal/Scripts/funcionesAdministracion.js.php"></script>
+<script type="text/javascript" src="./Scripts/inicio.js.php"></script>
+<link rel="stylesheet" type="text/css" href="../principalPortal/css/controlesFrameWork.css">
+<link rel="stylesheet" type="text/css" href="../principalPortal/css/estiloSIUGJ.css">
+<style>
+
+									
+									@font-face
+									{
+									  font-family:'WorkSans-MediumItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraLightItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraLightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Black';
+									  src: url('../fuentes/WorkSans/WorkSans-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ThinItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Italic';
+									  src: url('../fuentes/WorkSans/WorkSans-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-BlackItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraLight';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraLight.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Light';
+									  src: url('../fuentes/WorkSans/WorkSans-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-BoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Regular';
+									  src: url('../fuentes/WorkSans/WorkSans-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Thin';
+									  src: url('../fuentes/WorkSans/WorkSans-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-LightItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraBold';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-ExtraBoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-ExtraBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Bold';
+									  src: url('../fuentes/WorkSans/WorkSans-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-SemiBold';
+									  src: url('../fuentes/WorkSans/WorkSans-SemiBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-Medium';
+									  src: url('../fuentes/WorkSans/WorkSans-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'WorkSans-SemiBoldItalic';
+									  src: url('../fuentes/WorkSans/WorkSans-SemiBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraBoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-LightItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Thin';
+									  src: url('../fuentes/Monserrat/Montserrat-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-BlackItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ThinItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Regular';
+									  src: url('../fuentes/Monserrat/Montserrat-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraLightItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraLightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraLight';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraLight.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-BoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-SemiBold';
+									  src: url('../fuentes/Monserrat/Montserrat-SemiBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-SemiBoldItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-SemiBoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-MediumItalic';
+									  src: url('../fuentes/Monserrat/Montserrat-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-ExtraBold';
+									  src: url('../fuentes/Monserrat/Montserrat-ExtraBold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Italic';
+									  src: url('../fuentes/Monserrat/Montserrat-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Bold';
+									  src: url('../fuentes/Monserrat/Montserrat-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Black';
+									  src: url('../fuentes/Monserrat/Montserrat-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Light';
+									  src: url('../fuentes/Monserrat/Montserrat-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Montserrat-Medium';
+									  src: url('../fuentes/Monserrat/Montserrat-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Thin';
+									  src: url('../fuentes/Lato2OFL/Lato-Thin.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Black';
+									  src: url('../fuentes/Lato2OFL/Lato-Black.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-HeavyItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-HeavyItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-MediumItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-MediumItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Italic';
+									  src: url('../fuentes/Lato2OFL/Lato-Italic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Bold';
+									  src: url('../fuentes/Lato2OFL/Lato-Bold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-LightItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-LightItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-SemiboldItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-SemiboldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Light';
+									  src: url('../fuentes/Lato2OFL/Lato-Light.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-BoldItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-BoldItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-BlackItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-BlackItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-ThinItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-ThinItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Heavy';
+									  src: url('../fuentes/Lato2OFL/Lato-Heavy.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Regular';
+									  src: url('../fuentes/Lato2OFL/Lato-Regular.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-HairlineItalic';
+									  src: url('../fuentes/Lato2OFL/Lato-HairlineItalic.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Hairline';
+									  src: url('../fuentes/Lato2OFL/Lato-Hairline.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Semibold';
+									  src: url('../fuentes/Lato2OFL/Lato-Semibold.ttf');
+									 
+									
+									  
+									  
+									}
+								
+									
+									@font-face
+									{
+									  font-family:'Lato-Medium';
+									  src: url('../fuentes/Lato2OFL/Lato-Medium.ttf');
+									 
+									
+									  
+									  
+									}
+								
+</style>
+<link rel="stylesheet" href="../Scripts/prefixFree/style.css" type="text/css" media="screen">
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style><link rel="stylesheet" type="text/css" href="../../Scripts/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css"><script type="text/javascript" src="../../Scripts/plupload/js/plupload.full.min.js"></script><script type="text/javascript" src="../Scripts/ckeditor/ckeditor.js"></script><script type="text/javascript" src="../../Scripts/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js"></script><script type="text/javascript" src="../../Scripts/plupload/js/i18n/es.js"></script><style>.cke{visibility:hidden;}</style></head>
+<body style="background-color:#1A3E9A" class="   ext-webkit ext-chrome ext-mac" id="ext-gen3">
+<table width="100%" class="tablaGlobal">
+<tbody><tr>
+<td align="center">
+<div class="rectangulo1">
+<img class="imagenLogoGov" src="../principalPortal/imagesSIUGJ/logo_gov.png">
+</div>
+<div class="rectangulo2">
+<img class="imagenLogo" src="../principalPortal/imagesSIUGJ/logoRamaJudicial2.png">
+<img class="imagenLogo2" src="../principalPortal/imagesSIUGJ/Paleta_SIUGJ_Mesa_de_trabajo_1.png">
+<div class="etiquetaBienvenido">Bienvenido:&nbsp; <span class="nombreUsuario">USUARIO ACTOR ACCIONANTE</span></div>
+<div class="etiquetaSalir"><table width="70"><tbody><tr><td><a href="javascript:cerrarSesionPrincipal()">Salir</a></td><td><a href="javascript:cerrarSesionPrincipal()"><img class="" src="../principalPortal/imagesSIUGJ/Vector.png"></a></td></tr></tbody></table></div>
+</div>
+<table width="100%" cellspacing="0" style="padding:0px; border:0px">
+<tbody><tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td colspan="8" valign="top" align="center">
+<div>
+<div class="wrap">
+<nav>
+<ul class="menu">
+<li><a href="#"><span class="iconic"></span> Administración de Audiencias</a>
+<ul>
+<li style="z-index:1000; display:block"><a href="javascript:abrirPaginaIframe('../modulosEspeciales_SGJ/tblTableroAudienciasPromovente.php')">Audiencias Programadas</a></li><li style="z-index:1000; display:block"><a href="javascript:abrirPaginaIframe('../modulosEspeciales_SGJ/tblCalendarioAudienciasPromovente.php')">Agenda de Audiencias</a></li> </ul>
+</li> <li><a href="#"><span class="iconic"><img src="../principalPortal/imagesSIUGJ/carbon_user-avatar-filled-alt.png"></span> Cuenta de Usuario</a>
+<ul>
+<li style="z-index:1000; display:block"><a href="javascript:abrirDatosAccesoCuenta();">Administración</a></li><li style="z-index:1000; display:block"><a href="javascript:abrirPaginaIframe('../modeloConectores/tblConectoresServicioCalendarios.php')">Conexiones a Servicios de Nube</a></li> </ul>
+</li> <li><a href="#"><span class="iconic"></span> Trámites</a>
+<ul>
+<li style="z-index:1000; display:block"><a href="javascript:ingresarProcesoIframeV2('Mjcx')">Solicitud de Acceso al Proceso Judicial</a></li><li style="z-index:1000; display:block"><a href="javascript:abrirPaginaIframe('../modulosEspeciales_SGJ/tblAdministracionExpedientesAutorizados.php')">Admón de Procesos Judiciales</a></li><li style="z-index:1000; display:block"><a href="javascript:ingresarProcesoIframeV2('Mjc3')">Recurso de Casación</a></li> </ul>
+</li> </ul>
+<div class="clearfix"></div>
+</nav>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="8">
+<div class="rectangulo3">
+<div id="tblNotificacionesBar" class="tblNotificacionesBar"><table class="ttw-notification-menu"><tbody><tr><td class="notification-menu-item first-item" height="24" style="vertical-align:middle;width:290px;"><table width="800"><tbody><tr><td width="35" align="center"><img src="../principalPortal/imagesSIUGJ/warningBlue.png"></td><td width="250"><span><a class="letraNombreTablero">Alertas/Notificaciones del día:</a></span></td><td style="padding-right:5px;padding-left:5px;"><a href="javascript:mostrarTableroAlertasNotificaciones()"><div class="burbujaNotificacion" id="total_alertas"><div id="total_alertas" class="burbujaNotificacion">0</div></div></a></td><td width="50"></td><td class="notification-menu-item first-item" height="24"><table id="tblNotificacion_4" class="tablaNotificacionesSel"><tbody><tr><td width="35" align="center"><img src="../principalPortal/imagesSIUGJ/warningBlue.png" id="icon_4_0" style=""><img style="display:none" src="../images/warning_1.png" id="icon_4_1"><img style="display:none" src="../images/warning_2.png" id="icon_4_2"></td><td width="150"><span><a class="letraNombreTablero">Tareas</a></span></td><td style="padding-right:5px;padding-left:5px;"><a href="javascript:mostrarTableroNotificaciones('NA==')"><div id="total_4" class="burbujaNotificacion">19</div></a></td></tr></tbody></table></td><td width="50"></td><td class="notification-menu-item first-item" height="24"><table id="tblNotificacion_5" class=""><tbody><tr><td width="35" align="center"><img src="../principalPortal/imagesSIUGJ/warningBlue.png" id="icon_5_0" style=""><img style="display:none" src="../images/warning_1.png" id="icon_5_1"><img style="display:none" src="../images/warning_2.png" id="icon_5_2"></td><td width="150"><span><a class="letraNombreTablero">Avisos</a></span></td><td style="padding-right:5px;padding-left:5px;"><a href="javascript:mostrarTableroNotificaciones('NQ==')"><div id="total_5" class="burbujaNotificacion">0</div></a></td></tr></tbody></table></td><td width="50"></td></tr></tbody></table></td></tr></tbody></table></div>
+</div>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="8">
+<table width="100%">
+<tbody><tr>
+<td align="center" style="vertical-align:top">
+<span id="tblTabla">
+<div id="ext-comp-1002" class=" x-panel x-panel-noborder" style="width: 100%;"><div class="x-panel-bwrap" id="ext-gen12"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder" id="ext-gen13"><iframe id="iframe-frameContenido" name="iframe-frameContenido" frameborder="0" src="" style="overflow: scroll !important; width: 100%; height: 550px;"></iframe></div></div></div></span>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<div class="rectangulo4">
+<br>
+<table width="100%">
+<tbody><tr>
+<td align="center">
+<br>
+<table>
+<tbody><tr>
+<td width="350" align="left" class="celdaInferior"><span class="letraBarraInferior">Cuentas de correo para Notificaciones Judiciales</span></td>
+<td width="351" align="center" class="celdaInferior"><span class="letraBarraInferior">Políticas de Privacidad y Condiciones de Uso</span></td>
+<td width="155" align="center" class="celdaInferior"><span class="letraBarraInferior">Correo Institucional</span></td>
+<td width="268" align="center" class="celdaInferiorUltima"><span class="letraBarraInferior">Directorio de Correos electrónicos</span></td>
+</tr>
+<tr>
+<td colspan="2" align="left"><br><br>
+ <span class="letraBarraInferior2">
+Calle 12 No. 7 - 65, Palacio de Justicia Alfonso Reyes Echandía, Bogotá Colombia<br>
+Horario de Atención Lunes a Viernes<br>
+8:00 a.m. a 1:00 p.m. - 2:00 p.m. a 5:00 p.m.
+</span>
+</td>
+<td colspan="2"><br><br><br>
+<span class="letraBarraInferior2">
+PBX: (571) 565 8500 - E-mail: info@cendoj.ramajudicial.gov.co<br>
+Acceder a los Canales de Atención<br>
+Mapa del sitio
+</span>
+</td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<br><br>
+<table>
+<tbody><tr>
+<td align="center" width="120">
+<img src="../principalPortal/imagesSIUGJ/logoFace.png">
+</td>
+<td align="center" width="120">
+<img src="../principalPortal/imagesSIUGJ/logoTwitter.png">
+</td>
+<td align="center" width="120">
+<img src="../principalPortal/imagesSIUGJ/logoInstagram.png">
+</td>
+<td align="center" width="120">
+<img src="../principalPortal/imagesSIUGJ/logoYoutube.png">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</div>
+</td>
+</tr>
+</tbody></table>
+<iframe id="framePrincipal" name="framePrincipal" src="" width="1" height="1" onload="frameLoadPrincipal(this)"></iframe>
+<br><br>
+<form method="POST" action="../modulosEspeciales_SGJ/tblAdministracionExpedientesAutorizados.php" id="frmEnvioDatos" target="iframe-frameContenido">
+<input type="hidden" name="confReferencia" value="0">
+<input type="hidden" id="tipoFormato" value="">
+<input type="hidden" id="idRegistroFormato" value="">
+
+<input type="hidden" id="idRegistro" value="">
+<input type="hidden" id="idReferencia" value="">
+<input type="hidden" id="sL" value="">
+<input type="hidden" id="idFormularioProceso" value="-1">
+<input type="hidden" name="cPagina" id="cPagina" value="sFrm=true"></form>
+
+<div id="ext-comp-1001" class=" x-tip" style="position: absolute; z-index: 20002; visibility: hidden; display: none;"><div class="x-tip-tl"><div class="x-tip-tr"><div class="x-tip-tc"><div class="x-tip-header x-unselectable" id="ext-gen4"><span class="x-tip-header-text"></span></div></div></div></div><div class="x-tip-bwrap" id="ext-gen5"><div class="x-tip-ml"><div class="x-tip-mr"><div class="x-tip-mc" id="ext-gen8"><div class="x-tip-body" id="ext-gen6" style="height: auto;"></div></div></div></div><div class="x-tip-bl x-panel-nofooter" id="ext-gen7"><div class="x-tip-br"><div class="x-tip-bc"></div></div></div></div><div class="x-tip-anchor x-tip-anchor-top" id="ext-gen9" style="z-index: 20003;"></div></div></body></html>

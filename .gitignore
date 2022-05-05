@@ -1,6 +1,0 @@
-target
-.DS_store
-*.txt
-.idea
-.env
-.sass-cache
